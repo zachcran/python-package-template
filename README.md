@@ -1,7 +1,6 @@
 # Python Package Template
 
-A comprehensive [Cookiecutter](https://github.com/cookiecutter/cookiecutter) 
-template for generating professional Python projects. Designed for SIMCODES-ISU.
+A comprehensive [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for generating professional Python projects. Designed for SIMCODES-ISU.
 
 ## Features
 
@@ -16,6 +15,7 @@ template for generating professional Python projects. Designed for SIMCODES-ISU.
 The end goal will be to create a GitHub repository from the template. 
 
 ### 1. Create the GitHub Repository
+
 Start by going to [SIMCODES@ISU](https://github.com/SIMCODES-ISU)
 and clicking on the "New Repository" button. Provide:
 
@@ -27,15 +27,15 @@ Leave everything else disabled (we don't want GitHub to generate any files).
 
 ### 2. Populate the Local Repository
 
-Next, we need to locally create the repository. To do this first install
-Cookiecutter (if it's not already installed):
+Next, we need to locally create the repository from this template. To do this first install the Cookiecutter tool (if it's not already installed) to be available for your user account:
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install cookiecutter
 ```
-Then run cookiecutter telling it to use the SIMCODES-ISU template:
+
+Then run `cookiecutter`, telling it to use the SIMCODES-ISU template:
 
 ```bash
 cookiecutter gh:simcodes-isu/python-package-template
@@ -51,18 +51,17 @@ Cookiecutter will then proceed to ask you to provide the following information:
 - project_short_description (use whatever you put on GitHub)
 - version (default of 0.1.0 is fine)
 
-The result will be a directory named whatever you provided for "repo_name". The
-directory will NOT yet be a git repository, nor will it be synched to GitHub.
+The result will be a directory named whatever you provided for `repo_name`. The directory will NOT yet be a git repository, nor will it be synched to GitHub.
 
 ### 3. Initialize Git Version Control For the Local Repository
 
-To turn the directory into a git repository, and commit the generated files to
-the repository, run the following inside the resulting directory:
+To turn the directory into a git repository, and commit the generated files to the repository, run the following inside the resulting directory:
 
 ```bash
 git init
 
-# TODO add steps to change default branch's name to "main" so CI/CD works
+# Ensure the primary branch name is 'main' for CI/CD
+git branch -M main
 
 # Stages all non-staged files for commit
 git add -A
@@ -124,9 +123,7 @@ Add a line like
 * @mentor1
 ```
 
-where `@mentor1` is the GitHub username of the mentor in charge of the project.
-You can add multiple GitHub usernames on the same line if there are multiple
-mentors.
+where `@mentor1` is the GitHub username of the mentor in charge of the project. You can add multiple GitHub usernames on the same line if there are multiple mentors.
 
 ### Modify the GitHub Settings
 
