@@ -1,4 +1,3 @@
-Init a git repo on creation
 Fix API documentation generation
-Make a template README.md?
-Update README.md of cookiecutter template to use install groups and other features added
+
+2026-05-31 Fix install location for cookiecutter; that venv will be hard to find in the future
