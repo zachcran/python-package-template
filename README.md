@@ -31,8 +31,8 @@ Next, we need to locally create the repository. To do this first install
 Cookiecutter (if it's not already installed):
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 pip install cookiecutter
 ```
 Then run cookiecutter telling it to use the SIMCODES-ISU template:
