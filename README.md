@@ -53,26 +53,9 @@ Cookiecutter will then proceed to ask you to provide the following information:
 
 The result will be a directory named whatever you provided for `repo_name`. The directory will NOT yet be a git repository, nor will it be synched to GitHub.
 
-### 3. Initialize Git Version Control For the Local Repository
+### 3. Set the Local Repository to Track the GitHub Repository
 
-To turn the directory into a git repository, and commit the generated files to the repository, run the following inside the resulting directory:
-
-```bash
-git init
-
-# Ensure the primary branch name is 'main' for CI/CD
-git branch -M main
-
-# Stages all non-staged files for commit
-git add -A
-
-# Commits the staged files
-git commit -m "first commit"
-```
-
-### 4. Set the Local Repository to Track the GitHub Repository
-
-Now we need to tell the repository to track the GitHub repository:
+A local git repository is created as part of the template generation process. Now we need to tell this repository to track the GitHub repository from step 1:
 
 ```bash
 # <repo_name> is whatever you called it in step 1
