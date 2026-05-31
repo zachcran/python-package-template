@@ -83,38 +83,6 @@ git push -u origin main
 
 ## Recommended Next Steps
 
-### Create a Virtual Environment for the Project
-
-Virtual environments (venvs) let you install dependencies separately from other projects to help avoid dependency conflicts. It is recommended to create one for each project. After using either method below to create the virtual environment, VSCode should automatically detect and activate the virtual environment for the project going forward.
-
-#### Through VSCode
-
-With the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installed, open the Command Pallete with Ctrl+Shift+P, search for "Python: Create Environment...", select the "Venv" option, and select your Python interpreter (the first option will probably be correct). This will create virtual environment folder as a hidden file called `.venv` in your project.
-
-#### Through the Terminal
-
-Navigate to your project directory, open a terminal there, and run the following commands:
-
-1. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-2. Activate the virtual environment
-
-```bash
-# For macOS/Linux
-source venv/bin/activate
-
-# For Windows
-.\venv\Scripts\activate
-```
-
-### Install Development Tools for the Project
-
-Inside of your new repo folder, install the optional dependency group of development tools
-
 ### Create a CODEOWNERS file
 
 Add a line like
@@ -144,3 +112,7 @@ settings:
   - Require approval of the most recent reviewable push
 - Require status checks to pass (requires that CI/CD has run once)
   - Require branches to be up to date before merging
+
+### Follow Steps in README.md
+
+Check the `README.md` file in your new project and follow any steps there.
