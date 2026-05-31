@@ -45,7 +45,6 @@ Cookiecutter will then proceed to ask you to provide the following information:
 
 - full name
 - email
-- username (use your GitHub username or Organization the repo will be hosted under)
 - repo_name (use whatever you called it on GitHub)
 - package_name (this will be the name used in Python import statements)
 - project_short_description (use whatever you put on GitHub)

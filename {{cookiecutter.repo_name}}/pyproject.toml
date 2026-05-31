@@ -56,10 +56,10 @@ dev = [
 # TEMPLATE: Update with your project's URLs once you have them
 [project.urls]
 # Homepage = "https://example.com"
-Documentation = "https://{{cookiecutter.username}}.github.io/{{cookiecutter.repo_name}}"
-Repository = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.repo_name}}.git"
-"Bug Tracker" = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.repo_name}}/issues"
-Changelog = "https://github.com/{{cookiecutter.username}}/{{cookiecutter.repo_name}}/blob/main/CHANGELOG.md"
+Documentation = "https://SIMCODES-ISU.github.io/{{cookiecutter.repo_name}}"
+Repository = "https://github.com/SIMCODES-ISU/{{cookiecutter.repo_name}}.git"
+"Bug Tracker" = "https://github.com/SIMCODES-ISU/{{cookiecutter.repo_name}}/issues"
+Changelog = "https://github.com/SIMCODES-ISU/{{cookiecutter.repo_name}}/blob/main/CHANGELOG.md"
 
 # Command line scripts/applications provided by the project
 # [project.scripts]
