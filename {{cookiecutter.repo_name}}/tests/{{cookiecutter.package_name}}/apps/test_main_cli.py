@@ -1,5 +1,6 @@
 from {{cookiecutter.package_name}}.apps import main_cli
 
+
 def test_main_cli_version_flag(capsys):
     # 1. Arrange
     success_code = 0
@@ -16,6 +17,7 @@ def test_main_cli_version_flag(capsys):
     # stdout is not empty, meaning a version was provided; since version
     # will change frequently, we only check if *something* was output or not
     assert captured.out != invalid_output
+
 
 def test_main_cli_normal_run(capsys):
     success_code = 0
