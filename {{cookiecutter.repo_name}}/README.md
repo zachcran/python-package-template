@@ -50,7 +50,9 @@ Once you install the dev tools, you need to install the pre-commit hooks for the
 pre-commit install
 ```
 
-On `git commit`, these installed hooks will run, checking the code and not allowing the commit to succeed until issues are fixed. These hooks can be run at any time manually with:
+On `git commit`, these installed hooks will run, checking the code and not allowing the commit to succeed until issues are fixed.
+
+These hooks can be run at any time manually with:
 
 ```bash
 # Only on staged files
@@ -61,3 +63,11 @@ pre-commit run --all-files
 ```
 
 See `pre-commit run --help` for more running options that are available.
+
+## Running Unit Tests
+
+Unit tests are run with the `pytest` tool, installed as part of the `dev` optional dependency group (`pip install --group dev`). To execute the unit tests for the project, simply run the following command from the root directory of the project:
+
+```bash
+pytest
+```
