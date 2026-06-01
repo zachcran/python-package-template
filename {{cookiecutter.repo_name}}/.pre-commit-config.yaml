@@ -33,13 +33,13 @@ repos:
   - id: black
     language_version: python3
 
-- repo: https://github.com/LilSpazJoekp/docstrfmt
-  rev: v2.0.2
-  hooks:
-    - id: docstrfmt
-      language_version: python3
-      # Only worry about rst files in the docs
-      types_or: [rst]  # [python, rst, txt]
+# - repo: https://github.com/LilSpazJoekp/docstrfmt
+#   rev: v2.0.2
+#   hooks:
+#     - id: docstrfmt
+#       language_version: python3
+#       # Only worry about rst files in the docs
+#       types_or: [rst]  # [python, rst, txt]
 
 - repo: https://github.com/PyCQA/flake8
   rev: 7.3.0
