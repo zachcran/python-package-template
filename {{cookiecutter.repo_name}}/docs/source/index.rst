@@ -4,10 +4,10 @@ Welcome to {{cookiecutter.repo_name | replace("-", " ") | title}}'s documentatio
 ======================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
-   api
+   API <api/modules>
 
 Indices and tables
 ==================
