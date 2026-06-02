@@ -27,7 +27,7 @@ Leave everything else disabled (we don't want GitHub to generate any files).
 
 ### 2. Populate the Local Repository
 
-Next, we need to locally create the repository from this template. To do this first install the Cookiecutter tool (if it's not already installed) to be available for your user account:
+Next, we need to locally create the repository from this template. To do this first install the Cookiecutter tool (if it's not already installed) to be available for your user account. We recommend using a virtual environment. In the directory where you want the virtual environment to live run:
 
 ```bash
 python3 -m venv venv
