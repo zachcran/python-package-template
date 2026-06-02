@@ -16,7 +16,7 @@ maintainers = [
 ]
 description = "{{cookiecutter.project_short_description}}"
 readme = { file = "README.md", content-type = "text/markdown" }
-license = "MIT" # Use SPDX identifier (https://spdx.org/licenses/)
+license = "Apache-2.0" # Use SPDX identifier (https://spdx.org/licenses/)
 license-files = ["LICEN[CS]E*", "vendored/licenses/*.txt", "AUTHORS.md"]
 
 # Keywords to help with searchability on PyPI
